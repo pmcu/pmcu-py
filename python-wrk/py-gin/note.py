@@ -9,7 +9,7 @@ x = datetime.datetime.now()
 
 f.write(str(x) + "\n")
 f.write("====================\n")
-
+f.write("Ábhar Úr")
 f.close()
 
 #open and read the file after the appending:
