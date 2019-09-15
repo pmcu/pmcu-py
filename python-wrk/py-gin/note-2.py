@@ -10,7 +10,7 @@ x = datetime.datetime.now()
 
 f.write(str(x) + "\n")
 f.write("====================\n")
-
+f.write("Seo rud úr ar fad\n")
 f.close()
 
 #open and read the file after the appending:
