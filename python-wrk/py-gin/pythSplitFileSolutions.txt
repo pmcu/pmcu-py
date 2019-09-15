@@ -1,0 +1,27 @@
+with open('words.txt','r') as f:
+    for line in f:
+        for word in line.split():
+           print(word)      
+
+If you want a nested list of the words in each line of the file (for example, to create a matrix of rows and columns from a file):
+
+with open("words.txt") as f:
+    [line.split() for line in f]
+
+Or, If you want to flatten the file into a single flat list of words in the file, you might do something like this:
+
+with open('words.txt') as f:
+    [word for line in f for word in line.split()]
+
+If you want a regex solution:
+
+import re
+with open("words.txt") as f:
+    for line in f:
+        for word in re.findall(r'\w+', line):
+            # word by word
+
+Or, if you want that to be a line by line generator with a regex:
+
+ with open("words.txt") as f:
+     (word for line in f for word in re.findall(r'\w+', line))

@@ -1,0 +1,18 @@
+tá an cat ar an tábla
+
+editor:move-to-beginning-of-next-paragraph
+editor:move-to-beginning-of-previous-paragraph
+editor:move-to-beginning-of-screen-line
+editor:move-to-beginning-of-line
+editor:move-to-end-of-line
+editor:move-to-first-character-of-line
+editor:move-to-beginning-of-next-word
+editor:move-to-previous-word-boundary
+editor:move-to-next-word-boundary
+editor:select-to-beginning-of-next-paragraph
+editor:select-to-beginning-of-previous-paragraph
+editor:select-to-end-of-line
+editor:select-to-beginning-of-line
+editor:select-to-beginning-of-next-word
+editor:select-to-next-word-boundary
+editor:select-to-previous-word-boundary

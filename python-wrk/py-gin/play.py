@@ -1,0 +1,10 @@
+import sys, os, time
+os.chdir("/home/padraig/Ceol/mp3")
+cwd= os.getcwd()
+print(cwd)
+z = os.system("ls *.mp3")
+time.sleep(4)
+track = input("Pick one: ")
+time.sleep(4)
+os.system("play " + track)
+os.system('clear')
